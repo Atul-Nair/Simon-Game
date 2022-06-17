@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Play</title>
+        <!-- css -->
+        <link rel="stylesheet" href="/CSS/game.css">
+        <link rel="shortcut icon" href="/images/gaming-pad.png" type="image/x-icon">
+        <!-- fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <h1 class="heading">Press any key to start</h1>
+        <div class="grid">
+            <div class="row">
+                <div>
+                    <div class="btn" id="green"></div>
+                </div>
+                <div>
+                    <div class="btn" id="yellow"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div>
+                    <div class="btn" id="red"></div>
+                </div>
+                <div>
+                    <div class="btn" id="blue"></div>
+                </div>
+            </div>
+        </div>
+        <a href="/index.html">
+            <div class="return-btn">
+                <img src="/images/leave.png" alt="return icon" >
+                <h2>Quit</h2>
+            </div>
+        </a>
+        <div id="score-board">
+            <h2 id="score">Score : 0</h2>
+        </div>
+        <!-- jquery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="/game.js" async defer></script>
+    </body>
+</html>
